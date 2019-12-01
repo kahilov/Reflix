@@ -20,3 +20,43 @@
 .App-link {
   color: #09d3ac;
 }
+
+#main-links > a{
+  margin: 10px;
+  color: #34495e;
+  text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+a{
+  cursor: pointer;
+  color: black;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.img{
+  height:500px;
+  width: 50%;
+}
+.button{
+  position: relative;
+  width: 50%;
+  left: 340px;
+}
+.users{
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.user{
+  align-self: center;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 50px;
+}
+
+
